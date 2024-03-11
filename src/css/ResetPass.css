@@ -1,0 +1,77 @@
+.containerResetPass {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: #fff;
+    padding-bottom: 30px;
+    width:500px;
+    height:500px;
+}
+
+.headerResetPass {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+        color: #3c009d;
+        font-size: 45px;
+        font-weight: 700;
+}
+
+.UnderlineSignUp {
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.inputsResetPass {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 330px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+    color: #30d930;
+}
+
+.input img {
+    margin: 0px 10px;
+    width: 30px;
+}
+
+.input input::placeholder {
+    color: #050a05;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #30d930;
+    font-size: 19px;
+}
+.inputEmail,
+.btnRequestCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.SecondInput{
+margin-left:-150px;
+
+}

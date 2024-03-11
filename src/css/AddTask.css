@@ -1,0 +1,82 @@
+/* Styles for the heading element (h1) */
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+/* Styles for the TodoWrapper component */
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+/* Styles for the TodoForm component within TodoWrapper */
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the input field inside TodoForm */
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+/* Styles for the input placeholder text */
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+/* Styles for the button inside TodoForm */
+.todo-btn {
+  background: #ffffff4d;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+/* Styles for individual Todo items */
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the trash icon within Todo items */
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+/* Styles for incompleted Todo items */
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Styles for completed Todo items */
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+/* Styles for edit and delete icons */
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}

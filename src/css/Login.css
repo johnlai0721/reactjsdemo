@@ -1,0 +1,150 @@
+.containerLogin {
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  background: #fff;
+  padding-bottom: 30px;
+  height:450px;
+  width:500px;
+}
+
+.headerLogin {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%; 
+  margin-top: 30px;
+}
+
+.text {
+  color: #3c009d;
+  font-size: 48px;
+  font-weight: 700;
+  
+}
+
+.Underline {
+  width: 150px;
+  height: 35px;
+  color: #30d930;
+  font-size: 20px;
+  background: #eaeaea;
+  border-radius: 9px 9px 9px 9px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.inputsLogin {
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  align-items: center;
+  margin: auto;
+  width: 330px;
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  color: #30d930;
+}
+
+.input img {
+  margin: 0px 10px;
+  width: 30px;
+}
+
+.input input::placeholder {
+  color: #050a05;
+}
+
+.input input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #30d930;
+  font-size: 19px;
+}
+
+.eyeSlash {
+  margin-left: -120px;
+  
+  background: #eaeaea;
+}
+button.eyeSlash{
+  width: 30px;
+  height: 30px;
+}
+
+.forgot-password {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin-right:100px;
+  color: #342ae7;
+  font-size: 15px;
+}
+
+.forgot-password span {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  color: #342ae7;
+  cursor: pointer;
+}
+
+.forgot-password span:hover{
+  color:#342ae7;
+}
+
+.button-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  margin: 30px auto;
+  margin-top: 12px;
+  margin-bottom:12px;
+}
+
+.submit-btn-login,
+.submit-btn-createAccount{
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 59px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-btn-login {
+  background: #4c00b4;
+}
+
+.submit-btn-createAccount{
+  background: #75ec61;
+}
+
+.error{
+  color:red;
+font-size: 12px;
+display:contents;
+;}
+
+
+
+
